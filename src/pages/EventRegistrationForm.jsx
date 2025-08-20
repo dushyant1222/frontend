@@ -40,7 +40,7 @@ export default function EventRegistrationForm() {
         key: 'rzp_test_R5d8RPm5Ji31qw',    //yha put ur live Razorpay key only
         amount: order.amount,              
         currency: 'INR',
-        name: 'TheSparkNova',
+        name: 'TheSparkTank',
         description: `Registration for event ${id}`,
         order_id: order.id,
         handler: async response => {
@@ -77,7 +77,7 @@ export default function EventRegistrationForm() {
 
   return (
     <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg my-8">
-      <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">Register for TheSparkNova</h2>
+      <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">Register for TheSparkTank</h2>
       <p className="text-gray-600 text-center mb-8">Fill in your details to complete registration</p>
       
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -118,7 +118,7 @@ export default function EventRegistrationForm() {
             value={formData.phoneNumber}
             onChange={handleChange}
             required
-            placeholder="+91 9876543210"
+            placeholder="+91 0000000000"
             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
           />
         </div>
