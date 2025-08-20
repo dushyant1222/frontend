@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
 
+
 export default function LoginPage() {
   const navigate = useNavigate();
   const [isLogin, setIsLogin] = useState(true);
@@ -85,8 +86,8 @@ export default function LoginPage() {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <img
           className="mx-auto h-12 w-auto"
-          src="/logo-white.png"
-          alt="TheSparkNova"
+          src="../assets/logo.jpg"
+          alt="TheSparkTank"
         />
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           {isLogin ? 'Sign in to your account' : 'Create your account'}
