@@ -14,7 +14,7 @@ export default function Partners() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1a2335]">Partner With Us</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            Collaborate with TheSparkNova to amplify your impact and contribute to the vibrant startup ecosystem in Bihar, UP, and beyond. We offer various partnership opportunities tailored to your goals.
+            Collaborate with TheSparkTank to amplify your impact and contribute to the vibrant startup ecosystem. We offer various partnership opportunities tailored to your goals.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
