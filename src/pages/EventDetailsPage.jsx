@@ -14,13 +14,13 @@ export default function EventDetailsPage() {
   useEffect(() => {
     setEvent({
       id,
-      eventName: 'TheSparkNova Ideathon 2025',
+      eventName: 'TheSparkTank Ideathon 2025',
       prizePool: '₹1,00,000',
       registrationPrice: '₹200',
       startingDate: '2025-09-01',
       endingDate: '2025-09-03',
       eventDescription:
-        'Join TheSparkNova for an exciting ideathon focused on innovation and entrepreneurship in Bihar & UP. This event brings together brilliant minds to solve real-world problems and create impactful solutions.',
+        'Join TheSparkTank for an exciting ideathon focused on innovation and entrepreneurship. This event brings together brilliant minds to solve real-world problems and create impactful solutions.',
     });
   }, [id]);
 
