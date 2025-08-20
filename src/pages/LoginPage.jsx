@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import api from '../services/api';
+import logo from '../assets/logo.jpg';
 
 
 export default function LoginPage() {
@@ -86,7 +87,7 @@ export default function LoginPage() {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <img
           className="mx-auto h-12 w-auto"
-          src="../assets/logo.jpg"
+          src={logo}
           alt="TheSparkTank"
         />
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
