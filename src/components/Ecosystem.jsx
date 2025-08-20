@@ -70,7 +70,7 @@ export default function Ecosystem() {
             Our Thriving Startup Ecosystem
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            TheSparkTank is building a robust and interconnected ecosystem that fosters innovation, supports entrepreneurs, and drives economic growth across Bihar, UP, and beyond. We connect key stakeholders to create a vibrant environment for startups to flourish.
+            TheSparkTank is building a robust and interconnected ecosystem that fosters innovation, supports entrepreneurs, and drives economic growth. We connect key stakeholders to create a vibrant environment for startups to flourish.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
