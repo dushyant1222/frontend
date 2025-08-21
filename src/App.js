@@ -8,6 +8,9 @@ import ProfilePage from './pages/ProfilePage';
 import LogoutPage from './pages/LogoutPage';
 import EventDetailsPage from './pages/EventDetailsPage';
 import EventRegistrationPage from './pages/EventRegistrationForm';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import RefundPolicy from './pages/RefundPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
 
 function PrivateRoute({ children }) {
   const user = JSON.parse(localStorage.getItem('user'));
@@ -26,6 +29,9 @@ function App() {
           <Route path="/events/:id" element={<PrivateRoute><EventDetailsPage /></PrivateRoute>} />
           <Route path="/events/:id/register" element={<PrivateRoute><EventRegistrationPage /></PrivateRoute>} />
           <Route path="/profile" element={<PrivateRoute><ProfilePage /></PrivateRoute>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
+         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         </Routes>
       </main>
       <Footer />
