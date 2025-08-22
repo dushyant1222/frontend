@@ -37,7 +37,7 @@ export default function EventRegistrationForm() {
 
       //2. Open Razorpay checkout with correct amount
       const options = {
-        key: 'rzp_test_R5d8RPm5Ji31qw',    //yha put ur live Razorpay key only
+        key: 'rzp_live_R8REuJ2qcuQ6Rw',    //yha put ur live Razorpay key only
         amount: order.amount,              
         currency: 'INR',
         name: 'TheSparkTank',
